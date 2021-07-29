@@ -1,0 +1,65 @@
+ol{
+  display: flex;
+  border: 2px solid black;
+  /* margin-top: 5px; */
+  margin: 5px 2px 5px 2px;
+  padding: 30px;
+  background-color: rgb(25, 7, 128);
+  text-align: center;
+  border-radius: 10px;
+
+  
+}
+
+li{
+  list-style-type: none;
+  background-color: rgb(25, 7, 128);
+  color: white;
+}
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+background-color: thistle;
+font-family: 'Rubik', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+.input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px 2px;
+  padding: 10px;
+}
+
+
+input{
+  margin: 8px 2px;
+  padding: 10px;
+  outline: none;
+}
+
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+h1{
+  text-align: center;
+  text-transform: capitalize;
+}
+
+footer{
+  border: 1px solid black;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+ 
+}
